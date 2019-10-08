@@ -1,0 +1,30 @@
+    /* #xiugai{
+      display: none;
+    } */
+    #chaxun .input-group{
+  		height: 30px;
+      width: 45px;
+      font-size: 15px;
+      padding:0;
+      margin-left:20px;
+  	}
+  	#chaxun input{
+  		margin: 0 auto;
+      height: 40px;
+      width: 300px;
+      font-size: 15px;
+      padding:0;
+  	}
+  	#chaxun .cxxx{
+  		float: left;
+  		width: 450px;
+  		padding-left: 230px;
+  	}
+  	#chaxun .buttontj{
+  		float: right;
+  		height: 60px;
+  		margin-left:0px;
+  		margin-right: 300px;
+  		margin-top: 45px;
+    }
+    

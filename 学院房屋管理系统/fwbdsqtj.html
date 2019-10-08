@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>添加房屋变动情况</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="list.css">
+  <link rel="stylesheet" type="text/css" href="fwjbqktj.css">
+  <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+</head>
+<body>
+  <div id="header" class="commonWidth">
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt="河北哈伦家具有限公司"></a>
+    </div>
+    <div class="contact">
+      <button class="btn btn-info btn-lg" onclick="javascript:window.location.href='index.html';">首页</button> 
+      <button class="btn btn-info btn-lg" onclick="javascript:window.location.href='zcym.html';">退出</button> 
+  </div>
+  </div>
+  <div id="gn">
+    <div id="lists">
+    <div class="lists">
+    <button class="btn btn-primary btn-rounded" data-toggle="dropdown" onclick="javascript:window.location.href='fwjbqk.html';">房屋基本情况</button>
+    </div>
+    <div class="lists">
+    <button class="btn btn-primary btn-rounded" data-toggle="dropdown" onclick="javascript:window.location.href='fwsysq.html';"">房屋使用申请</button>
+    </div>
+    <div class="lists">
+    <button class="btn btn-primary btn-rounded" data-toggle="dropdown" onclick="javascript:window.location.href='fwbdsq.html';">房屋变动申请</button>
+    </div>
+    </div>
+    <form>
+    <div id="form">
+      <button class="btn btn-info btn-lg" onclick="javascript:window.location.href='fwjbqkxg.html';">修改</button> 
+      <button class="btn btn-info btn-lg" onclick="javascript:window.location.href='fwjbqk.html';">返回</button> 
+      <table class="table table-hover">
+    <div class="input-group">
+    <div class="input-group-addon">&nbsp&nbsp&nbsp房间号</div>
+    <input type="text" placeholder="请输入房间号" >
+    </div>
+    <div class="input-group">
+    <div class="input-group-addon">坐落位置</div>
+    <input type="text" placeholder="请输入坐落位置" >
+    </div>
+    <div class="input-group">
+    <div class="input-group-addon">&nbsp&nbsp&nbsp面积&nbsp&nbsp&nbsp&nbsp</div>
+    <input type="text" placeholder="--平方米" readonly >
+    </div>
+    <div class="input-group">
+    <div class="input-group-addon">使用方向</div>
+    <select class="form-control">
+      <option>教学</option>
+      <option>行政</option>
+      <option>后勤</option>
+      <option>学生宿舍</option>
+      <option>库房</option>
+      </select>
+    </div>
+    </div>
+    <div class="input-group">
+    <div class="input-group-addon">使用部门</div>
+    <input type="text" placeholder="输入此房的使用部门" >
+    </div>
+    <div class="input-group">
+    <div class="input-group-addon">&nbsp&nbsp&nbsp使用人&nbsp</div>
+    <input type="text" placeholder="请输入使用人名称" >
+    </div>
+    <div class="input-group">
+    <div class="input-group-addon">&nbsp&nbsp&nbsp责任人&nbsp</div>
+    <input type="text" placeholder="请输入负责人" >
+    </div>
+    <div class="input-group">
+    <div class="input-group-addon">&nbsp&nbsp&nbsp现状&nbsp&nbsp&nbsp&nbsp</div>
+    <select class="form-control">
+      <option>正在使用</option>
+      <option>闲置</option>
+      <option>危房</option>
+      </select>
+    </div>
+    <input type="submit" class="buttontj">
+    </table>
+  </div>
+  </form>
+</body>
+</html>
