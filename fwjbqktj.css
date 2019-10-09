@@ -1,0 +1,42 @@
+#form{
+      width: 1100px;
+      height: 100%;
+      float: right;
+      background: #7ecdff;
+      border:solid 6px;
+    }
+    #form input{
+      margin: 0 auto;
+      height: 40px;
+      width: 600px;
+      font-size: 15px;
+      padding:0;
+      
+    }
+    #form button{
+      height: 30px;
+      width: 45px;
+      font-size: 15px;
+      padding:0;
+      margin-left:20px;
+    }
+    #form .input-group{
+      margin: 20px 250px;
+
+    }
+    #form .form-control{
+      height: 40px;
+      width: 600px;
+      
+    }
+    #form select{
+      padding: 0 2%;
+    }
+    #form option{
+      font-size: 15px;
+    }
+    #form .buttontj{
+      margin-left:550px;
+      width: 90px;
+      height: 60px;
+    }
